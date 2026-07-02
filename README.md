@@ -205,10 +205,3 @@ open_for_review.py                 Opens a visible browser window with answers p
 
 Python, NumPy, Playwright (headless Chromium) for driving the real
 JS-based simulator during strategy search.
-
----
-
-*Note: the course's own simulator source (`yMain.js`, `yCS.js`,
-`yCS540.js`) and per-student generated test data are intentionally left out
-of/gitignored from this repo — they're the instructor's course material and
-personal assignment data, not something to redistribute publicly.*
