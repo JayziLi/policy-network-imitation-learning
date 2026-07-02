@@ -1,0 +1,16 @@
+# Course-provided simulator source (not mine to redistribute)
+yMain.js
+yCS.js
+yCS540.js
+
+# Personal / per-student generated data and submission artifacts
+test.csv
+output/answers.txt
+output/submission_box.txt
+output/submit_message.txt
+output/q9_submission.txt
+output/grade_comment.txt
+output/*.png
+
+__pycache__/
+*.pyc
