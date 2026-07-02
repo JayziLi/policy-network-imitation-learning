@@ -14,6 +14,17 @@ policy" with a neural network (imitation learning / behavior cloning), and
 environment with real collisions, wall physics, and a per-sensor scoring
 penalty.
 
+## Demo
+
+The final network (`k=5`, `speed_bias=0.05`) actually driving in the real
+simulator, dodging walls and two opponent cars on an auto-generated track —
+recorded straight from the browser, not staged:
+
+![demo of the trained car navigating a track while avoiding walls and opponents](demo/demo.gif)
+
+(Red lines are the car's 5 sensor rays; the other colored dots are opponent
+cars.)
+
 ## Problem setup
 
 - A car moves in a `[0,1] x [0,1]` arena. Each frame it picks **one** of four
@@ -189,12 +200,6 @@ fill_and_grade.py / submit.py      Automates filling in and submitting the regul
 generate_q9_submission.py          Formats the final network into the Canvas competition upload
 open_for_review.py                 Opens a visible browser window with answers pre-loaded, for manual review
 ```
-
-## Result
-
-- Regular submission: 59/59 (5/5 on Canvas).
-- Competition network submitted to Canvas A2C; final ranking pending the
-  July 7 deadline and class-wide race.
 
 ## Tools
 

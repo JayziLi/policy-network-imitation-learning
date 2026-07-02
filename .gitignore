@@ -14,3 +14,7 @@ output/*.png
 
 __pycache__/
 *.pyc
+
+# Raw recording scratch files (only the final demo/demo.gif is kept)
+output/video/
+output/frames/
