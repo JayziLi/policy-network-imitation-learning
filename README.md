@@ -1,3 +1,5 @@
+English | [中文](README.zh-CN.md)
+
 # Autonomous Vehicle Policy Network — Imitation Learning & Racing Strategy
 
 A from-scratch feed-forward policy network for a discrete-action autonomous
